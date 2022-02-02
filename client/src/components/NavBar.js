@@ -7,7 +7,7 @@ import UserMenuDesktop from './UserMenuDesktop';
 import SearchBar from './SearchBar';
 import DarkModeSwitch from './DarkModeSwitch';
 import { useAuthContext } from '../context/auth';
-// import SofLogo from '../svg/stack-overflow.svg';
+import AutoLogo from '../svg/autocomplete.png';
 
 import {
   AppBar,
@@ -63,7 +63,7 @@ const NavBar = () => {
                     component={RouterLink}
                     to="/"
                   >
-                    {/* <img src={SofLogo} width="25px" alt="sof-logo" /> */}
+                    <img src={AutoLogo} width="25px" alt="autologo" />
                   </IconButton>
                 ) : (
                   <Button
@@ -72,17 +72,17 @@ const NavBar = () => {
                     to="/"
                     size="large"
                   >
-                    {/* <img
-                      src={SofLogo}
+                    <img
+                      src={AutoLogo}
                       width="28px"
-                      alt="sof-logo"
+                      alt="autologo"
                       style={{ marginRight: '5px' }}
-                    /> */}
+                    />
                     Stack<strong>AutoComplete</strong>
                   </Button>
                 )}
                 {!isMobile 
-                // && 
+                && 
                 // (
                 //   <Typography variant="caption" color="secondary">
                 //     | Made with{' '}
