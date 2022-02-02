@@ -1,8 +1,8 @@
-import { ReactComponent as UpvoteIcon } from '../svg/upvote.svg';
-import { ReactComponent as DownvoteIcon } from '../svg/downvote.svg';
+import { ReactComponent as UpvoteIcon } from '../assets/images/upvote.svg';
+import { ReactComponent as DownvoteIcon } from '../assets/images/downvote.svg';
 
 import { Checkbox, SvgIcon } from '@material-ui/core';
-import { useVoteBtnsStyles } from '../styles/muiStyles';
+import { useVoteBtnsStyles } from '../assets/styles/muiStyles';
 
 export const UpvoteButton = ({ checked, handleUpvote }) => {
   const classes = useVoteBtnsStyles();

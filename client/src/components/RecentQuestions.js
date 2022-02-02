@@ -2,7 +2,7 @@ import { Link as RouterLink } from 'react-router-dom';
 import { formatDateAgo } from '../utils/helperFuncs';
 
 import { Typography } from '@material-ui/core';
-import { useUserPageStyles } from '../styles/muiStyles';
+import { useUserPageStyles } from '../assets/styles/muiStyles';
 
 const RecentQuestions = ({ question }) => {
   const classes = useUserPageStyles();

@@ -1,7 +1,7 @@
 import { useStateContext } from '../context/state';
 
 import { IconButton } from '@material-ui/core';
-import { useNavStyles } from '../styles/muiStyles';
+import { useNavStyles } from '../assets/styles/muiStyles';
 import Brightness4Icon from '@material-ui/icons/Brightness4';
 import Brightness7Icon from '@material-ui/icons/Brightness7';
 

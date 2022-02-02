@@ -1,7 +1,7 @@
 import { useLocation, Link as RouterLink } from 'react-router-dom';
 
 import { MenuItem, useMediaQuery, Divider, Grid } from '@material-ui/core';
-import { useMenuStyles } from '../styles/muiStyles';
+import { useMenuStyles } from '../assets/styles/muiStyles';
 import { useTheme } from '@material-ui/core/styles';
 import PublicIcon from '@material-ui/icons/Public';
 import LocalOfferIcon from '@material-ui/icons/LocalOffer';

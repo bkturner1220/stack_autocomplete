@@ -3,7 +3,7 @@ import { Link as RouterLink } from 'react-router-dom';
 import AuthFormModal from './AuthFormModal';
 
 import { IconButton, Menu, MenuItem, Avatar } from '@material-ui/core';
-import { useMenuStyles } from '../styles/muiStyles';
+import { useMenuStyles } from '../assets/styles/muiStyles';
 import MoreVertIcon from '@material-ui/icons/MoreVert';
 import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 import PowerSettingsNewIcon from '@material-ui/icons/PowerSettingsNew';

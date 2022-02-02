@@ -7,7 +7,7 @@ import UserMenuDesktop from './UserMenuDesktop';
 import SearchBar from './SearchBar';
 import DarkModeSwitch from './DarkModeSwitch';
 import { useAuthContext } from '../context/auth';
-import AutoLogo from '../svg/autocomplete.png';
+import AutoLogo from '../assets/images/autocomplete.png';
 
 import {
   AppBar,
@@ -19,7 +19,7 @@ import {
   useMediaQuery,
   IconButton,
 } from '@material-ui/core';
-import { useNavStyles } from '../styles/muiStyles';
+import { useNavStyles } from '../assets/styles/muiStyles';
 import { useTheme } from '@material-ui/core/styles';
 // import FavoriteIcon from '@material-ui/icons/Favorite';
 import SearchIcon from '@material-ui/icons/Search';
@@ -82,7 +82,7 @@ const NavBar = () => {
                   </Button>
                 )}
                 {!isMobile 
-                && 
+                // && 
                 // (
                 //   <Typography variant="caption" color="secondary">
                 //     | Made with{' '}

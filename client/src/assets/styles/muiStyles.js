@@ -39,7 +39,7 @@ export const useNavStyles = makeStyles(
       alignItems: 'center',
     },
     appBar: {
-      borderTop: '4px solid #63a6dd',
+      borderTop: '4px solid #3968a6',
     },
     searchBar: {
       flexGrow: 0.6,
