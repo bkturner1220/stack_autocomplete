@@ -1,0 +1,26 @@
+{
+  "name": "stack_autocomplete",
+  "version": "1.0.0",
+  "description": "A Automotive stack overflow utility",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"cd server && npm start\" \"cd client && npm start\"",
+    "install": "cd server && npm i && cd ../client && npm i"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bkturner1220/Stack_AutoComplete.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bkturner1220/Stack_AutoComplete/issues"
+  },
+  "homepage": "https://github.com/bkturner1220/Stack_AutoComplete#readme",
+  "devDependencies": {
+    "concurrently": "^7.0.0"
+  },
+  "dependencies": {
+  }
+}
