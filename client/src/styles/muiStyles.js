@@ -39,7 +39,7 @@ export const useNavStyles = makeStyles(
       alignItems: 'center',
     },
     appBar: {
-      borderTop: '4px solid #f4649f',
+      borderTop: '4px solid #63a6dd',
     },
     searchBar: {
       flexGrow: 0.6,
@@ -289,7 +289,7 @@ export const useDialogStyles = makeStyles(
       fontSize: '1.3em',
     },
     upDownIcon: {
-      color: '#aa9aaa',
+      color: '#c0def3',
       fontSize: 32,
     },
   }),
@@ -356,7 +356,7 @@ export const useTagsPageStyles = makeStyles(
       alignItems: 'flex-start',
       padding: '0.8em',
       paddingBottom: '0.4em',
-      border: '1px solid #d3d3d3',
+      border: '1px solid #c0def3',
       borderRadius: 4,
     },
     tag: {
@@ -597,7 +597,7 @@ export const useUserPageStyles = makeStyles(
     },
     votes: {
       padding: '0.2em 0.5em',
-      border: '1px solid #d3d3d3',
+      border: '1px solid #c0def3',
       marginRight: '0.7em',
       [theme.breakpoints.down('xs')]: {
         marginRight: '0.5em',
@@ -645,11 +645,11 @@ export const useAskQuesPageStyles = makeStyles(
 export const useVoteBtnsStyles = makeStyles(
   (theme) => ({
     icon: {
-      color: '#aa9aaa',
+      color: '#c0def3',
       fontSize: 32,
     },
     checkedIcon: {
-      color: '#964ec2',
+      color: '#4079b8',
       fontSize: 32,
     },
   }),
