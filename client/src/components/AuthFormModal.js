@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import LoginForm from './LoginForm';
 import RegisterForm from './RegisterForm';
-import { ReactComponent as UpvoteIcon } from '../svg/upvote.svg';
-import { ReactComponent as DownvoteIcon } from '../svg/downvote.svg';
+import { ReactComponent as UpvoteIcon } from '../assets/images/upvote.svg';
+import { ReactComponent as DownvoteIcon } from '../assets/images/downvote.svg';
 
 import { DialogTitle } from './CustomDialogTitle';
 import {
@@ -16,7 +16,7 @@ import {
   IconButton,
 } from '@material-ui/core';
 import { useTheme } from '@material-ui/core/styles';
-import { useDialogStyles } from '../styles/muiStyles';
+import { useDialogStyles } from '../assets/styles/muiStyles';
 import PersonAddIcon from '@material-ui/icons/PersonAdd';
 import ExitToAppIcon from '@material-ui/icons/ExitToApp';
 

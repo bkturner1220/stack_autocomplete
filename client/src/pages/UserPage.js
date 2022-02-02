@@ -1,14 +1,14 @@
 import { useState, useEffect } from 'react';
 import { useParams, Link as RouterLink } from 'react-router-dom';
 import { useLazyQuery } from '@apollo/client';
-import { GET_USER } from '../graphql/queries';
+import { GET_USER } from '../utils/queries';
 import RecentQuestions from '../components/RecentQuestions';
 import LoadingSpinner from '../components/LoadingSpinner';
 import { useStateContext } from '../context/state';
 import { formatDateAgo, getErrorMsg } from '../utils/helperFuncs';
 
 import { Avatar, Typography, Divider } from '@material-ui/core';
-import { useUserPageStyles } from '../styles/muiStyles';
+import { useUserPageStyles } from '../assets/styles/muiStyles';
 
 const UserPage = () => {
   const classes = useUserPageStyles();

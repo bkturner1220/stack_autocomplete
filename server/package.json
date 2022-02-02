@@ -2,10 +2,10 @@
   "name": "stack_autocomplete",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "nodemon index.js",
-    "dev": "nodemon index.js"
+    "start": "nodemon server.js",
+    "dev": "nodemon server.js"
   },
   "author": "",
   "license": "MIT",

@@ -7,7 +7,7 @@ import UserMenuDesktop from './UserMenuDesktop';
 import SearchBar from './SearchBar';
 import DarkModeSwitch from './DarkModeSwitch';
 import { useAuthContext } from '../context/auth';
-// import SofLogo from '../svg/stack-overflow.svg';
+import AutoLogo from '../assets/images/autocomplete.png';
 
 import {
   AppBar,
@@ -19,7 +19,7 @@ import {
   useMediaQuery,
   IconButton,
 } from '@material-ui/core';
-import { useNavStyles } from '../styles/muiStyles';
+import { useNavStyles } from '../assets/styles/muiStyles';
 import { useTheme } from '@material-ui/core/styles';
 // import FavoriteIcon from '@material-ui/icons/Favorite';
 import SearchIcon from '@material-ui/icons/Search';
@@ -63,7 +63,7 @@ const NavBar = () => {
                     component={RouterLink}
                     to="/"
                   >
-                    {/* <img src={SofLogo} width="25px" alt="sof-logo" /> */}
+                    <img src={AutoLogo} width="25px" alt="autologo" />
                   </IconButton>
                 ) : (
                   <Button
@@ -72,12 +72,12 @@ const NavBar = () => {
                     to="/"
                     size="large"
                   >
-                    {/* <img
-                      src={SofLogo}
+                    <img
+                      src={AutoLogo}
                       width="28px"
-                      alt="sof-logo"
+                      alt="autologo"
                       style={{ marginRight: '5px' }}
-                    /> */}
+                    />
                     Stack<strong>AutoComplete</strong>
                   </Button>
                 )}

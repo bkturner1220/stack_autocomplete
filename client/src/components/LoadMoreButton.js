@@ -1,5 +1,5 @@
 import { Button, CircularProgress } from '@material-ui/core';
-import { useQuesListStyles } from '../styles/muiStyles';
+import { useQuesListStyles } from '../assets/styles/muiStyles';
 import AutorenewIcon from '@material-ui/icons/Autorenew';
 
 const LoadMoreButton = ({ handleLoadPosts, loading }) => {

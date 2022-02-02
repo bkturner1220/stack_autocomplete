@@ -1,13 +1,13 @@
 import { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { useMutation } from '@apollo/client';
-import { LOGIN_USER } from '../graphql/mutations';
+import { LOGIN_USER } from '../utils/mutations';
 import { useAuthContext } from '../context/auth';
 import { useStateContext } from '../context/state';
 import ErrorMessage from './ErrorMessage';
 import * as yup from 'yup';
 import { yupResolver } from '@hookform/resolvers/yup';
-import SofLogo from '../svg/stack-overflow.svg';
+import AutoLogo from '../assets/images/autocomplete.png';
 import { getErrorMsg } from '../utils/helperFuncs';
 
 import {
@@ -18,7 +18,7 @@ import {
   IconButton,
   Link,
 } from '@material-ui/core';
-import { useAuthFormStyles } from '../styles/muiStyles';
+import { useAuthFormStyles } from '../assets/styles/muiStyles';
 import PersonIcon from '@material-ui/icons/Person';
 import LockIcon from '@material-ui/icons/Lock';
 import ExitToAppIcon from '@material-ui/icons/ExitToApp';
@@ -61,7 +61,7 @@ const LoginForm = ({ setAuthType, closeModal }) => {
 
   return (
     <div className={classes.root}>
-      <img src={SofLogo} alt="sof-logo" className={classes.titleLogo} />
+      <img src={AutoLogo} alt="autologo" className={classes.titleLogo} />
       <form onSubmit={handleSubmit(onLogin)}>
         <div className={classes.inputField}>
           <TextField

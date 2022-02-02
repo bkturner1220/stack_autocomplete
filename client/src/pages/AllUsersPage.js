@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useQuery } from '@apollo/client';
-import { GET_ALL_USERS } from '../graphql/queries';
+import { GET_ALL_USERS } from '../utils/queries';
 import { Link as RouterLink } from 'react-router-dom';
 import LoadingSpinner from '../components/LoadingSpinner';
 import { useStateContext } from '../context/state';
@@ -13,7 +13,7 @@ import {
   Avatar,
   Link,
 } from '@material-ui/core';
-import { useUsersPageStyles } from '../styles/muiStyles';
+import { useUsersPageStyles } from '../assets/styles/muiStyles';
 import SearchIcon from '@material-ui/icons/Search';
 
 const AllUsersPage = () => {
