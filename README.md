@@ -1,5 +1,5 @@
 # <p align="center"> **Stack AutoComplete**
-#### <p align="center">Project 3: Get Mern Smacked
+#### <p align="center">Project 3: Get Mern Smacked test
  
 </p>
 
