@@ -4,7 +4,7 @@ import DeleteDialog from './DeleteDialog';
 import { formatDayTime } from '../utils/helperFuncs';
 
 import { Typography, Link, Button, TextField } from '@material-ui/core';
-import { useQuesPageStyles } from '../assets/styles/muiStyles';
+import { useQuesPageStyles } from '../styles/muiStyles';
 import EditIcon from '@material-ui/icons/Edit';
 
 const Comment = ({ comment, user, quesAnsId, editComment, deleteComment }) => {

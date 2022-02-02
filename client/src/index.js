@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './assets/css/index.css';
+import './index.css';
 import 'typeface-montserrat';
 import App from './App';
 import { BrowserRouter as Router } from 'react-router-dom';
 import { ApolloProvider } from '@apollo/client';
-import apolloClient from './utils/apolloClient';
+import apolloClient from './apolloClient';
 import { AuthProvider } from './context/auth';
 import { StateProvider } from './context/state';
 

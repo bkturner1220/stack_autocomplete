@@ -11,7 +11,7 @@ import { yupResolver } from '@hookform/resolvers/yup';
 import { getErrorMsg } from '../utils/helperFuncs';
 
 import { Typography, Button, TextField, Chip, Link } from '@material-ui/core';
-import { useQuesPageStyles } from '../assets/styles/muiStyles';
+import { useQuesPageStyles } from '../styles/muiStyles';
 
 const validationSchema = yup.object({
   answerBody: yup.string().min(30, 'Must be at least 30 characters'),

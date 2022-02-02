@@ -170,7 +170,7 @@ import asyncify from 'callback-to-async-iterator';
 export const resolvers = {
   Subscription: {
     somethingChanged: {
-      subscribe: () => asyncify(listenToNewMessages),
+      subscribe: () => asyncify(listenToChanges),
     },
   },
 }

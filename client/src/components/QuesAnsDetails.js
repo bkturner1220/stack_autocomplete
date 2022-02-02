@@ -7,7 +7,7 @@ import CommentSection from './CommentSection';
 import AcceptAnswerButton from './AcceptAnswerButton';
 import DeleteDialog from './DeleteDialog';
 import AuthFormModal from './AuthFormModal';
-import { ReactComponent as AcceptedIcon } from '../assets/images/accepted.svg';
+import { ReactComponent as AcceptedIcon } from '../svg/accepted.svg';
 
 import {
   Typography,
@@ -16,7 +16,7 @@ import {
   SvgIcon,
   TextField,
 } from '@material-ui/core';
-import { useQuesPageStyles } from '../assets/styles/muiStyles';
+import { useQuesPageStyles } from '../styles/muiStyles';
 
 const QuesAnsDetails = ({
   quesAns,

@@ -1,5 +1,5 @@
 import { Alert, AlertTitle } from '@material-ui/lab';
-import { useAlertStyles } from '../assets/styles/muiStyles';
+import { useAlertStyles } from '../styles/muiStyles';
 
 const AlertMessage = ({ errorMsg, clearErrorMsg }) => {
   const classes = useAlertStyles();

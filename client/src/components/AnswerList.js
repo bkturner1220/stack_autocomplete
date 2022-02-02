@@ -19,7 +19,7 @@ import { upvote, downvote } from '../utils/voteQuesAns';
 import { getErrorMsg } from '../utils/helperFuncs';
 
 import { Typography, useMediaQuery, Divider } from '@material-ui/core';
-import { useQuesPageStyles } from '../assets/styles/muiStyles';
+import { useQuesPageStyles } from '../styles/muiStyles';
 import { useTheme } from '@material-ui/core/styles';
 
 const AnswerList = ({ quesId, answers, acceptedAnswer, quesAuthor }) => {

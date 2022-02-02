@@ -7,13 +7,13 @@ import UserMenuDesktop from './UserMenuDesktop';
 import SearchBar from './SearchBar';
 import DarkModeSwitch from './DarkModeSwitch';
 import { useAuthContext } from '../context/auth';
-// import SofLogo from '../assets/images/stack-overflow.svg';
+// import SofLogo from '../svg/stack-overflow.svg';
 
 import {
   AppBar,
   Toolbar,
-  Typography,
-  Link,
+  // Typography,
+  // Link,
   Button,
   Container,
   useMediaQuery,
@@ -21,7 +21,7 @@ import {
 } from '@material-ui/core';
 import { useNavStyles } from '../styles/muiStyles';
 import { useTheme } from '@material-ui/core/styles';
-import FavoriteIcon from '@material-ui/icons/Favorite';
+// import FavoriteIcon from '@material-ui/icons/Favorite';
 import SearchIcon from '@material-ui/icons/Search';
 
 const NavBar = () => {
@@ -72,30 +72,33 @@ const NavBar = () => {
                     to="/"
                     size="large"
                   >
-                    <img
+                    {/* <img
                       src={SofLogo}
                       width="28px"
                       alt="sof-logo"
                       style={{ marginRight: '5px' }}
-                    />
-                    stack<strong>underflow</strong>
+                    /> */}
+                    Stack<strong>AutoComplete</strong>
                   </Button>
                 )}
-                {!isMobile && (
-                  <Typography variant="caption" color="secondary">
-                    | Made with{' '}
-                    <FavoriteIcon style={{ fontSize: 10, color: '#f4649f' }} />{' '}
-                    by
-                    <Link
-                      href={'https://github.com/amand33p'}
-                      color="inherit"
-                      target="_blank"
-                      rel="noopener"
-                    >
-                      <strong>{` amand33p`}</strong>
-                    </Link>
-                  </Typography>
-                )}
+                {!isMobile 
+                // && 
+                // (
+                //   <Typography variant="caption" color="secondary">
+                //     | Made with{' '}
+                //     <FavoriteIcon style={{ fontSize: 10, color: '#FF0000' }} />{' '}
+                //     by
+                //     <Link
+                //       href={'https://github.com/bkturner1220'}
+                //       color="inherit"
+                //       target="_blank"
+                //       rel="noopener"
+                //     >
+                //       <strong>{` bkturner1220`}</strong>
+                //     </Link>
+                //   </Typography>
+                // )
+                }
               </div>
               {!isMobile && <SearchBar />}
             </div>

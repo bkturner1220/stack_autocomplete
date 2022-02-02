@@ -1,6 +1,6 @@
-const { AuthenticationError } = require('apollo-server-express');
+const { AuthenticationError } = require('apollo-server');
 const jwt = require('jsonwebtoken');
-const SECRET = 'mysecretssshhhhhhh';
+const { SECRET } = require('./config');
 
 const authChecker = (context) => {
   const token = context.req.headers.authorization;

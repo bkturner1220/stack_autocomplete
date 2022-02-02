@@ -7,7 +7,7 @@ import { useStateContext } from '../context/state';
 import ErrorMessage from './ErrorMessage';
 import * as yup from 'yup';
 import { yupResolver } from '@hookform/resolvers/yup';
-// import SofLogo from '../assets/images/stack-overflow.svg';
+import SofLogo from '../svg/stack-overflow.svg';
 import { getErrorMsg } from '../utils/helperFuncs';
 
 import {
@@ -18,7 +18,7 @@ import {
   IconButton,
   Link,
 } from '@material-ui/core';
-import { useAuthFormStyles } from '../assets/styles/muiStyles';
+import { useAuthFormStyles } from '../styles/muiStyles';
 import PersonIcon from '@material-ui/icons/Person';
 import LockIcon from '@material-ui/icons/Lock';
 import ExitToAppIcon from '@material-ui/icons/ExitToApp';
@@ -61,7 +61,7 @@ const LoginForm = ({ setAuthType, closeModal }) => {
 
   return (
     <div className={classes.root}>
-      {/* <img src={SofLogo} alt="sof-logo" className={classes.titleLogo} /> */}
+      <img src={SofLogo} alt="sof-logo" className={classes.titleLogo} />
       <form onSubmit={handleSubmit(onLogin)}>
         <div className={classes.inputField}>
           <TextField

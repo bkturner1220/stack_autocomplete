@@ -1,7 +1,7 @@
 import { Link as RouterLink } from 'react-router-dom';
 import { formatDateAgo, formatDayTime } from '../utils/helperFuncs';
 import { Typography, Link, Avatar } from '@material-ui/core';
-import { useQuesCardStyles } from '../assets/styles/muiStyles';
+import { useQuesCardStyles } from '../styles/muiStyles';
 
 const ByUser = ({
   username,
