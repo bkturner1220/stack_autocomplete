@@ -1,10 +1,10 @@
 import { useForm } from 'react-hook-form';
 import { Link as RouterLink } from 'react-router-dom';
 import { useMutation } from '@apollo/client';
-import { POST_ANSWER } from '../utils/mutations';
-import { VIEW_QUESTION } from '../utils/queries';
-import { useAuthContext } from '../context/auth';
-import { useStateContext } from '../context/state';
+import { POST_ANSWER } from '../utils/graphql/mutations';
+import { VIEW_QUESTION } from '../utils/graphql/queries';
+import { useAuthContext } from '../utils/context/auth';
+import { useStateContext } from '../utils/context/state';
 import AuthFormModal from '../components/AuthFormModal';
 import * as yup from 'yup';
 import { yupResolver } from '@hookform/resolvers/yup';

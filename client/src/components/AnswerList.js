@@ -8,12 +8,12 @@ import {
   ADD_ANS_COMMENT,
   EDIT_ANS_COMMENT,
   DELETE_ANS_COMMENT,
-} from '../utils/mutations';
-import { VIEW_QUESTION } from '../utils/queries';
+} from '../utils/graphql/mutations';
+import { VIEW_QUESTION } from '../utils/graphql/queries';
 import QuesAnsDetails from './QuesAnsDetails';
 import SortAnsBar from './SortAnsBar';
-import { useAuthContext } from '../context/auth';
-import { useStateContext } from '../context/state';
+import { useAuthContext } from '../utils/context/auth';
+import { useStateContext } from '../utils/context/state';
 import sortAnswers from '../utils/sortAnswers';
 import { upvote, downvote } from '../utils/voteQuesAns';
 import { getErrorMsg } from '../utils/helperFuncs';

@@ -1,4 +1,4 @@
-import { useStateContext } from '../context/state';
+import { useStateContext } from '../utils/context/state';
 
 import { IconButton } from '@material-ui/core';
 import { useNavStyles } from '../assets/styles/muiStyles';

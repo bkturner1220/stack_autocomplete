@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react';
 import { useParams, Link as RouterLink } from 'react-router-dom';
 import { useLazyQuery } from '@apollo/client';
-import { VIEW_QUESTION } from '../utils/queries';
-import { useStateContext } from '../context/state';
-import { useAuthContext } from '../context/auth';
+import { VIEW_QUESTION } from '../utils/graphql/queries';
+import { useStateContext } from '../utils/context/state';
+import { useAuthContext } from '../utils/context/auth';
 import QuesPageContent from '../components/QuesPageContent';
 import RightSidePanel from '../components/RightSidePanel';
 import AuthFormModal from '../components/AuthFormModal';

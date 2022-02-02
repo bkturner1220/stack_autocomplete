@@ -1,8 +1,8 @@
 import { useQuery } from '@apollo/client';
-import { GET_ALL_TAGS } from '../utils/queries';
+import { GET_ALL_TAGS } from '../utils/graphql/queries';
 import { Link as RouterLink } from 'react-router-dom';
 import LoadingSpinner from './LoadingSpinner';
-import { useStateContext } from '../context/state';
+import { useStateContext } from '../utils/context/state';
 import { getErrorMsg } from '../utils/helperFuncs';
 
 import { Typography, Chip, useMediaQuery, Grid } from '@material-ui/core';

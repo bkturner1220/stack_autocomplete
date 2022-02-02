@@ -1,7 +1,7 @@
 import NavBar from './components/NavBar';
 import ToastNotification from './components/ToastNotification';
 import Routes from './pages/Routes';
-import { useStateContext } from './context/state';
+import { useStateContext } from './utils/context/state';
 
 import customTheme from './assets/styles/customTheme';
 import { useBodyStyles } from './assets/styles/muiStyles';

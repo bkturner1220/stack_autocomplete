@@ -8,7 +8,7 @@ import QuestionPage from './QuestionPage';
 import AskQuestionPage from './AskQuestionPage';
 import UserPage from './UserPage';
 import NotFoundPage from './NotFoundPage';
-import { useAuthContext } from '../context/auth';
+import { useAuthContext } from '../utils/context/auth';
 
 import { Container, Grid } from '@material-ui/core';
 

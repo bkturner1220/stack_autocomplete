@@ -1,10 +1,10 @@
 import { useState, useEffect } from 'react';
 import { useParams, Link as RouterLink } from 'react-router-dom';
 import { useLazyQuery } from '@apollo/client';
-import { GET_USER } from '../utils/queries';
+import { GET_USER } from '../utils/graphql/queries';
 import RecentQuestions from '../components/RecentQuestions';
 import LoadingSpinner from '../components/LoadingSpinner';
-import { useStateContext } from '../context/state';
+import { useStateContext } from '../utils/context/state';
 import { formatDateAgo, getErrorMsg } from '../utils/helperFuncs';
 
 import { Avatar, Typography, Divider } from '@material-ui/core';

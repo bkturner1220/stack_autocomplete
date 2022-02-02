@@ -6,10 +6,10 @@ import {
   ADD_QUES_COMMENT,
   EDIT_QUES_COMMENT,
   DELETE_QUES_COMMENT,
-} from '../utils/mutations';
-import { VIEW_QUESTION } from '../utils/queries';
-import { useAuthContext } from '../context/auth';
-import { useStateContext } from '../context/state';
+} from '../utils/graphql/mutations';
+import { VIEW_QUESTION } from '../utils/graphql/queries';
+import { useAuthContext } from '../utils/context/auth';
+import { useStateContext } from '../utils/context/state';
 import QuesAnsDetails from './QuesAnsDetails';
 import AnswerList from './AnswerList';
 import AnswerForm from './AnswerForm';

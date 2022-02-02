@@ -6,8 +6,8 @@ import App from './App';
 import { BrowserRouter as Router } from 'react-router-dom';
 import { ApolloProvider } from '@apollo/client';
 import apolloClient from './utils/apolloClient';
-import { AuthProvider } from './context/auth';
-import { StateProvider } from './context/state';
+import { AuthProvider } from './utils/context/auth';
+import { StateProvider } from './utils/context/state';
 
 ReactDOM.render(
   <ApolloProvider client={apolloClient}>

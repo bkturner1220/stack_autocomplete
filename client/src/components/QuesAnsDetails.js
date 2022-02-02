@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Link as RouterLink } from 'react-router-dom';
 import { UpvoteButton, DownvoteButton } from './VoteButtons';
-import { useAuthContext } from '../context/auth';
+import { useAuthContext } from '../utils/context/auth';
 import PostedByUser from './PostedByUser';
 import CommentSection from './CommentSection';
 import AcceptAnswerButton from './AcceptAnswerButton';

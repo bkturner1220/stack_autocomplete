@@ -6,7 +6,7 @@ import UserMenuMobile from './UserMenuMobile';
 import UserMenuDesktop from './UserMenuDesktop';
 import SearchBar from './SearchBar';
 import DarkModeSwitch from './DarkModeSwitch';
-import { useAuthContext } from '../context/auth';
+import { useAuthContext } from '../utils/context/auth';
 import AutoLogo from '../assets/images/autocomplete.png';
 
 import {

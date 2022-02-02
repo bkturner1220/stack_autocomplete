@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { useMutation } from '@apollo/client';
-import { REGISTER_USER } from '../utils/mutations';
-import { useAuthContext } from '../context/auth';
-import { useStateContext } from '../context/state';
+import { REGISTER_USER } from '../utils/graphql/mutations';
+import { useAuthContext } from '../utils/context/auth';
+import { useStateContext } from '../utils/context/state';
 import ErrorMessage from './ErrorMessage';
 import * as yup from 'yup';
 import { yupResolver } from '@hookform/resolvers/yup';
