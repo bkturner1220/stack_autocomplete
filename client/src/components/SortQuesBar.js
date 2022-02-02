@@ -1,5 +1,5 @@
 import { ButtonGroup, Button } from '@material-ui/core';
-import { useQuesListStyles } from '../styles/muiStyles';
+import { useQuesListStyles } from '../assets/styles/muiStyles';
 
 const SortQuesBar = ({ isMobile, sortBy, setSortBy }) => {
   const classes = useQuesListStyles();

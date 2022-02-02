@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useLazyQuery } from '@apollo/client';
-import { GET_QUESTIONS } from '../graphql/queries';
+import { GET_QUESTIONS } from '../utils/queries';
 import { useParams, Link as RouterLink } from 'react-router-dom';
 import { useStateContext } from '../context/state';
 import { useAuthContext } from '../context/auth';
@@ -12,7 +12,7 @@ import LoadingSpinner from '../components/LoadingSpinner';
 import { filterDuplicates, getErrorMsg } from '../utils/helperFuncs';
 
 import { Typography, Button, Divider, useMediaQuery } from '@material-ui/core';
-import { useQuesListStyles } from '../styles/muiStyles';
+import { useQuesListStyles } from '../assets/styles/muiStyles';
 import { useTheme } from '@material-ui/core/styles';
 
 const QuesListPage = ({ tagFilterActive, searchFilterActive }) => {

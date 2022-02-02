@@ -1,7 +1,7 @@
-import { ReactComponent as Error404 } from '../svg/404-error.svg';
+import { ReactComponent as Error404 } from '../assets/images/404-error.svg';
 
 import { Typography, SvgIcon } from '@material-ui/core';
-import { useNotFoundPageStyles } from '../styles/muiStyles';
+import { useNotFoundPageStyles } from '../assets/styles/muiStyles';
 
 const NotFoundPage = () => {
   const classes = useNotFoundPageStyles();

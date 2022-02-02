@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useParams, Link as RouterLink } from 'react-router-dom';
 import { useLazyQuery } from '@apollo/client';
-import { VIEW_QUESTION } from '../graphql/queries';
+import { VIEW_QUESTION } from '../utils/queries';
 import { useStateContext } from '../context/state';
 import { useAuthContext } from '../context/auth';
 import QuesPageContent from '../components/QuesPageContent';
@@ -17,7 +17,7 @@ import {
   Grid,
   useMediaQuery,
 } from '@material-ui/core';
-import { useQuesPageStyles } from '../styles/muiStyles';
+import { useQuesPageStyles } from '../assets/styles/muiStyles';
 import { useTheme } from '@material-ui/core/styles';
 
 const QuestionPage = () => {

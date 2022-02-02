@@ -1,7 +1,7 @@
-import { ReactComponent as AcceptedIcon } from '../svg/accepted.svg';
+import { ReactComponent as AcceptedIcon } from '../assets/images/accepted.svg';
 
 import { Checkbox, SvgIcon } from '@material-ui/core';
-import { useQuesPageStyles } from '../styles/muiStyles';
+import { useQuesPageStyles } from '../assets/styles/muiStyles';
 
 const AcceptAnswerButton = ({ checked, handleAcceptAns }) => {
   const classes = useQuesPageStyles();

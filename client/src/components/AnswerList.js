@@ -8,8 +8,8 @@ import {
   ADD_ANS_COMMENT,
   EDIT_ANS_COMMENT,
   DELETE_ANS_COMMENT,
-} from '../graphql/mutations';
-import { VIEW_QUESTION } from '../graphql/queries';
+} from '../utils/mutations';
+import { VIEW_QUESTION } from '../utils/queries';
 import QuesAnsDetails from './QuesAnsDetails';
 import SortAnsBar from './SortAnsBar';
 import { useAuthContext } from '../context/auth';
@@ -19,7 +19,7 @@ import { upvote, downvote } from '../utils/voteQuesAns';
 import { getErrorMsg } from '../utils/helperFuncs';
 
 import { Typography, useMediaQuery, Divider } from '@material-ui/core';
-import { useQuesPageStyles } from '../styles/muiStyles';
+import { useQuesPageStyles } from '../assets/styles/muiStyles';
 import { useTheme } from '@material-ui/core/styles';
 
 const AnswerList = ({ quesId, answers, acceptedAnswer, quesAuthor }) => {

@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useHistory } from 'react-router-dom';
 
 import { InputAdornment, IconButton, TextField } from '@material-ui/core';
-import { useNavStyles } from '../styles/muiStyles';
+import { useNavStyles } from '../assets/styles/muiStyles';
 import SearchIcon from '@material-ui/icons/Search';
 import ArrowBackIcon from '@material-ui/icons/ArrowBack';
 

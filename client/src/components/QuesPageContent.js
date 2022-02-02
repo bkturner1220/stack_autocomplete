@@ -6,8 +6,8 @@ import {
   ADD_QUES_COMMENT,
   EDIT_QUES_COMMENT,
   DELETE_QUES_COMMENT,
-} from '../graphql/mutations';
-import { VIEW_QUESTION } from '../graphql/queries';
+} from '../utils/mutations';
+import { VIEW_QUESTION } from '../utils/queries';
 import { useAuthContext } from '../context/auth';
 import { useStateContext } from '../context/state';
 import QuesAnsDetails from './QuesAnsDetails';
@@ -17,7 +17,7 @@ import { upvote, downvote } from '../utils/voteQuesAns';
 import { getErrorMsg } from '../utils/helperFuncs';
 
 import { Divider } from '@material-ui/core';
-import { useQuesPageStyles } from '../styles/muiStyles';
+import { useQuesPageStyles } from '../assets/styles/muiStyles';
 
 const QuesPageContent = ({ question }) => {
   const {

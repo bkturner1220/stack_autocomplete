@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useHistory } from 'react-router-dom';
 import { useForm } from 'react-hook-form';
 import { useMutation } from '@apollo/client';
-import { POST_QUESTION, EDIT_QUESTION } from '../graphql/mutations';
+import { POST_QUESTION, EDIT_QUESTION } from '../utils/mutations';
 import { useStateContext } from '../context/state';
 import ErrorMessage from '../components/ErrorMessage';
 import * as yup from 'yup';
@@ -17,7 +17,7 @@ import {
   Chip,
 } from '@material-ui/core';
 import Autocomplete from '@material-ui/lab/Autocomplete';
-import { useAskQuesPageStyles } from '../styles/muiStyles';
+import { useAskQuesPageStyles } from '../assets/styles/muiStyles';
 
 const validationSchema = yup.object({
   title: yup

@@ -2,7 +2,7 @@ import { Link as RouterLink } from 'react-router-dom';
 import PostedByUser from './PostedByUser';
 
 import { Paper, Typography, Chip } from '@material-ui/core';
-import { useQuesCardStyles } from '../styles/muiStyles';
+import { useQuesCardStyles } from '../assets/styles/muiStyles';
 
 const QuesCard = ({ question }) => {
   const classes = useQuesCardStyles();

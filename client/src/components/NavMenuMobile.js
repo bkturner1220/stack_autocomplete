@@ -9,7 +9,7 @@ import {
   // Typography,
   // Link,
 } from '@material-ui/core';
-import { useMenuStyles } from '../styles/muiStyles';
+import { useMenuStyles } from '../assets/styles/muiStyles';
 import MenuIcon from '@material-ui/icons/Menu';
 import CloseIcon from '@material-ui/icons/Close';
 import PublicIcon from '@material-ui/icons/Public';

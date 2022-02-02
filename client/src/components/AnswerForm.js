@@ -1,8 +1,8 @@
 import { useForm } from 'react-hook-form';
 import { Link as RouterLink } from 'react-router-dom';
 import { useMutation } from '@apollo/client';
-import { POST_ANSWER } from '../graphql/mutations';
-import { VIEW_QUESTION } from '../graphql/queries';
+import { POST_ANSWER } from '../utils/mutations';
+import { VIEW_QUESTION } from '../utils/queries';
 import { useAuthContext } from '../context/auth';
 import { useStateContext } from '../context/state';
 import AuthFormModal from '../components/AuthFormModal';
@@ -11,7 +11,7 @@ import { yupResolver } from '@hookform/resolvers/yup';
 import { getErrorMsg } from '../utils/helperFuncs';
 
 import { Typography, Button, TextField, Chip, Link } from '@material-ui/core';
-import { useQuesPageStyles } from '../styles/muiStyles';
+import { useQuesPageStyles } from '../assets/styles/muiStyles';
 
 const validationSchema = yup.object({
   answerBody: yup.string().min(30, 'Must be at least 30 characters'),
