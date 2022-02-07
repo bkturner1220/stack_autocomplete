@@ -2,7 +2,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Orbitron:wght@777&family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
 
-# <p align="center"> **Stack AutoComplete**
+# <p align="center"> **Stack autoComplete**
 #### <p align="center">Project 3: Get Mern Smacked
  
 </p>
@@ -16,7 +16,7 @@
 
 ## Description
 
-Stack Autocomplete is a public platform that aims to build a community driven knowledge Database. Our target audience is the average home diy or commercial industrial car mechanic. We aim to build a vast network in our sphere of automechnic influence that empowers future mechanics, engineers, scholars, or anyone that has a desire and interest to learn in an Automotive space. Our application of this is similiar to coding based Database "Stackoverflow" where we will follow Automotive Compliance*statewide*, and give the user the ability to come together and solve problems.
+Stack autoComplete is a public platform that aims to build a community driven knowledge Database. Our target audience is the average home diy or commercial industrial car mechanic. We aim to build a vast network in our sphere of automechnic influence that empowers future mechanics, engineers, scholars, or anyone that has a desire and interest to learn in an Automotive space. Our application of this is similiar to coding based Database "Stackoverflow" where we will follow Automotive Compliance*statewide*, and give the user the ability to come together and solve problems.
 
 
 ## Features
