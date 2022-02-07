@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "A Automotive stack overflow utility",
   "main": "index.js",
+  "engines": {
+    "node": "16.13.0"
+  },
   "scripts": {
     "build": "cd client && npm run build",
     "install-client": "cd client && npm install",
