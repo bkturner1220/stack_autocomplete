@@ -4,11 +4,8 @@
   "description": "A Automotive stack overflow utility",
   "main": "index.js",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "build": "react-scripts build",
     "start": "concurrently \"cd server && npm start\" \"cd client && npm start\"",
-    "install": "cd server && npm i --legacy-peer-deps && cd ../client && npm i --legacy-peer-deps"
+    "install": "cd server && npm i && cd ../client && npm i"
   },
   "repository": {
     "type": "git",
@@ -24,7 +21,6 @@
     "concurrently": "^7.0.0"
   },
   "dependencies": {
-    "gh-pages": "^3.2.3",
-    "react-scripts": "^5.0.0"
+    "apollo-server": "^3.6.2"
   }
 }
