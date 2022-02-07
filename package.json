@@ -8,7 +8,7 @@
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "start": "concurrently \"cd server && npm start\" \"cd client && npm start\"",
-    "install": "cd server && npm i && cd ../client && npm i"
+    "install": "cd server && npm i --legacy-peer-deps && cd ../client && npm i --legacy-peer-deps"
   },
   "repository": {
     "type": "git",
